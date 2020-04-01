@@ -1,0 +1,56 @@
+
+/*MAIN*/
+.condition_img {
+    width:100%;
+    height: 300px;
+    background-image: url(../img/DSC100445021.jpg);
+    background-size: cover;
+}
+main {
+   text-align: justify;
+   padding-top:50px;
+}
+.sectionwrapper {
+    margin:15px 5px;
+}
+.section h1 {
+    padding:30px 0;
+}
+.section div{
+    padding:20px 0;
+}
+.section .futur{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    margin-top:25px;
+    color:white;
+    background: linear-gradient( #53a5bb,#f9cfd0);
+}
+.titre {
+    text-align:left;
+    color:#61a2b6;
+    font-size:28px;
+    padding-bottom:50px;
+}
+.section.seance {
+    text-align:left;
+    background-color: #61a2b6;
+    color:white;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+.section.seance.one {
+    background-color:#f0dbca;
+    color:#708090;  
+}
+.section.seance div, .section.seance.one div{
+    padding-bottom:20px;
+}
+.seance h1 {
+    padding: 20px 10px;
+    font-size:23px;
+    text-align:left;
+}
+
+

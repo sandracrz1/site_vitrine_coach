@@ -1,0 +1,118 @@
+/*GLOBAL*/
+.condition_img {
+    width:100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../img/couchersoleil.jpg); 
+}
+main {
+    text-align: center;
+ }
+/*TITRE LOGO*/
+.nom_titre{
+    position: relative;
+    height: 150px;
+    width:150px;
+    top:-280px;
+    left:0;
+    margin:auto;
+    text-align: center;
+    border: 1rem solid;
+    z-index:0;
+    cursor: pointer;
+    color:#44ccda;
+    background-color: white;
+    border-image: url(../img/couchersoleil.jpg) 30;
+}
+.nom_titre:hover .nom,.nom_titre:hover .metier,.nom_titre:hover  {
+   color:white;
+   border-image: url(../img/file.jpg) 30;
+   background-color:#e1b6b0;
+}
+.logo {
+    position: absolute;
+    top:0;
+    left:3px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.nom {
+    font-size: 28px;
+}
+.metier {
+    padding-top: 10px;
+}
+/*ITEMS TRANSITION*/
+.list-items {
+    position: relative;
+    top:-75px;
+    left:0;
+}
+.items,.pair {
+    text-align: center;
+    line-height: 70px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.items {
+    color:#708090;
+    text-shadow: #f6dad5 1px 0 5px; 
+}
+.pair {
+     color:#01c2d4;
+     text-shadow: #f6dad5 1px 0 5px; 
+}
+.content_presentation1 {
+    padding: 50px !important;
+    color:#708090;
+    text-shadow: #fff;
+    font-weight: 450;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-break: break-word;
+ }
+ .gradient_presentation_coach1 {
+    background:linear-gradient(to top,#c1c8ce , white 100%);
+ }
+ .content_presentation1 {
+    background-color:#efe2e1;
+    background-size: cover; 
+ }
+ span {
+    color:#2F4F4F;
+}
+.photo1 {
+    width:100%;
+    background:linear-gradient(to bottom,#efe2e1 , white 100%);
+ }
+ .photo_coach1 {
+   width: 200px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url(../img/photo_coach.jpg);
+   background-size: cover;
+   border-radius: 100px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+}
+.presentation_coach1 h1 {
+    color:#cdada8;
+    font-size: 28px;
+    padding-bottom:30px;
+}
+.presentation_coach1 h2 {
+    padding-bottom: 30px;
+    font-size: 28px;
+    color: #44ccda;
+ }
+ .presentation_coach1 p {
+     word-break: break-word;
+     padding-bottom: 15px;
+ }
+ .presentation_coach1{
+     margin-bottom: 40px;
+ }
+ 

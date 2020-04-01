@@ -1,0 +1,205 @@
+/*GLOBAL*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #999999;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*HEADER*/
+header {
+    width: 100%;
+}
+
+.nav_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    font-size: 22px;
+}
+
+.menu_nom {
+    position: relative;
+    width: 100%;
+    top: 20px;
+    left: 0;
+}
+
+.material-icons {
+    font-size: 30px;
+    cursor: pointer;
+    color: #708090;
+}
+
+.titre_nav_header {
+    vertical-align: top;
+    color: #708090;
+}
+
+.titre_nav_header:hover,
+.material-icons:hover {
+    color: #b3dee6;
+}
+
+.menu-deroulant {
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    text-align: center;
+    padding-top: 17px;
+    height: 0;
+    overflow: hidden;
+    transition: all ease-in 0.2s;
+}
+
+.menu-deroulant.open {
+    height: 178px;
+    background-color: #708090;
+    z-index: 1;
+    transition: all ease-in 0.2s;
+}
+
+.menu-deroulant a {
+    display: block;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.menu-deroulant a:hover {
+    color: #b3dee6;
+}
+
+/*CONTACT*/
+.contact_coach {
+    line-height: 30px;
+    color: #708090;
+    font-weight: 450;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-break: break-word;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.contact_coach h2 {
+    font-size: 1.6em;
+    padding-bottom: 30px;
+}
+
+.favicon a {
+    color: #708090;
+}
+
+.favicon a:hover {
+    color: #44ccda;
+}
+
+/*FOOTER*/
+footer {
+    text-align: left;
+    padding: 40px 20px;
+    background-image: url(../img/fondo-pastel-color-abstracto-cielo-suave-fondo-nubes-color-pastel_6529-311.jpg);
+    background-size: cover;
+    color: #708090;
+    padding: 0px 20px;
+}
+
+.item_footer {
+    padding: 20px 0;
+}
+
+.item_footer a {
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+    color: #708090;
+}
+
+.item_footer a:hover {
+    color: #61a2b6;
+}
+
+.nom_footer {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1000px) {
+    .nav_header {
+        display: none;
+    }
+
+    .menu-deroulant {
+        position: absolute;
+        display: block;
+        top: 30px;
+        height: 200px;
+    }
+
+    .menu-deroulant a {
+        display: inline-block;
+        padding: 0 30px;
+        font-size: 22px;
+    }
+
+    .menu-deroulant a:after {
+        content: "";
+        /* This is necessary for the pseudo element to work. */
+        display: block;
+        /* This will put the pseudo element on its own line. */
+        margin: 0 0px;
+        /* This will center the border. */
+        width: 0%;
+        /* Change this to whatever width you want. */
+        padding-top: 10px;
+        /* This creates some space between the element and the border. */
+        border-bottom: 2px solid white;
+        /* This creates the border. Replace black with whatever color you want. */
+        transition: all 0.4s ease-out;
+    }
+
+    .menu-deroulant a:hover:after {
+        width: 100%;
+    }
+
+    .menu-deroulant a:hover {
+        color: white;
+    }
+
+    .contact_coach {
+        padding: 80px;
+    }
+
+    /*footer*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 16px;
+        height: 80px;
+    }
+
+    .item_footer a {
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+}

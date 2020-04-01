@@ -1,0 +1,78 @@
+
+/*MAIN*/
+.condition_img {
+    width:100%;
+    height: 300px;
+    background-image: url(../img/couchersoleil.jpg);
+    background-size: cover;
+}
+main {
+    text-align: justify;
+   padding-top:50px;
+ }
+ .container {
+     padding:30px 0;
+ }
+.photo1{
+    padding:50px;
+    width:100%;
+    background:linear-gradient(to bottom,#efe2e1 , white 100%);
+ }
+ .photo_coach1{
+   width: 200px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url(../img/photo_coach.jpg);
+   background-size: cover;
+   border-radius: 100px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+  
+}
+.introduction{
+    text-align: justify;
+    padding:50px 0px;
+}
+.introduction h1{
+    color:#61a2b6;
+    font-size:28px;
+    padding-bottom:50px;
+    padding:30px 0;
+    line-height: 2.8rem;
+}
+.punshline p {
+    color:#708090;
+    font-size:28px;
+    padding-top:90px;
+    padding-bottom: 30px;
+    letter-spacing: 0.5rem;
+    margin:0 auto;
+    text-align:center;
+    line-height: 2.8rem;
+}
+.introduction p {
+    padding:20px 0;
+}
+.presentation_coach1 h1 {
+    color:#cdada8;
+    font-size: 28px;
+    padding-bottom:30px;
+}
+.presentation_coach1 h2 {
+    padding: 30px 0;
+    font-size: 30px;
+    color:#61a2b6;
+ }
+ .presentation_coach1 p {
+     word-break: break-word;
+     padding-bottom: 15px; 
+     font-size: 22px;
+ }
+ .presentation_coach1 {
+    width:100%;
+    background:linear-gradient(to top,#a5dce3 , white 100%);  
+    padding-bottom:30px;
+    text-align:center;
+    margin-bottom:100px;
+ }
